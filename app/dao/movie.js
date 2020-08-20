@@ -1,13 +1,13 @@
 import { MovieModel } from "../models/movie";
-import {NotFound} from "lin-mizar/lin";
+import { NotFound } from "lin-mizar/lin";
 
 class Movie {
   static async getMovieList() {
-    return await MovieModel.findAll()
+    return MovieModel.findAll();
   }
 
   static async addMovie (v) {
-    return await MovieModel.create(v);
+    return MovieModel.create(v);
   }
 
   static async editMovie(id, params) {
@@ -19,9 +19,9 @@ class Movie {
   }
 
   static async deleteMovieById(id) {
-    return await MovieModel.destroy({
-      where: { id }
-    })
+    return MovieModel.destroy({
+      where: {id}
+    });
   }
 }
 

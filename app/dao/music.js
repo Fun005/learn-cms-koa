@@ -1,13 +1,12 @@
 import { MusicModel } from "../models/music";
-import {MovieModel} from "../models/movie";
-import {NotFound} from "lin-mizar/lin";
+import { NotFound } from "lin-mizar/lin";
 
 class Music {
   static async getMusicList() {
-    return await MusicModel.findAll()
+    return MusicModel.findAll();
   }
   static async addMusic (v) {
-    return await MusicModel.create(v);
+    return MusicModel.create(v);
   }
   static async editMusic(id, params) {
     const music = await MusicModel.findByPk(id)
@@ -17,9 +16,9 @@ class Music {
     return await music.update({...params})
   }
   static async deleteMusicById(id) {
-    return await MusicModel.destroy({
-      where: { id }
-    })
+    return MusicModel.destroy({
+      where: {id}
+    });
   }
 }
 
