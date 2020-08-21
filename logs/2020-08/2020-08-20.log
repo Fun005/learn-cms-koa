@@ -1,0 +1,265 @@
+2020-08-20 21:42:23,735 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/v1/content] from: ::1 costs: 2ms data:{
+    "param": {},
+    "body": {
+        "type": "300",
+        "image": "https://baidu.com",
+        "title": "《七月与安生》",
+        "content": "《七月与安生》的故事",
+        "status": "2",
+        "pubdate": "2020-08-18"
+    }
+}
+2020-08-20 21:45:11,181 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/cms/user/login] from: ::ffff:127.0.0.1 costs: 10ms data:{
+    "param": {},
+    "body": {
+        "username": "root",
+        "password": "123456"
+    }
+}
+2020-08-20 21:45:11,205 DEBUG 91562  --- [tangc1Deci.local] - [GET] -> [/cms/user/permissions] from: ::ffff:127.0.0.1 costs: 14ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 21:46:01,406 DEBUG 91562  --- [tangc1Deci.local] - [GET] -> [/cms/admin/group/all] from: ::ffff:127.0.0.1 costs: 14ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 21:46:10,725 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/cms/user/register] from: ::ffff:127.0.0.1 costs: 29ms data:{
+    "param": {},
+    "body": {
+        "username": "test1",
+        "password": "123456",
+        "confirm_password": "123456",
+        "email": "",
+        "group_ids": [
+            2
+        ]
+    }
+}
+2020-08-20 21:48:00,181 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/v1/content] from: ::1 costs: 13ms data:{
+    "param": {},
+    "body": {
+        "type": "300",
+        "image": "https://baidu.com",
+        "title": "《星际穿越》",
+        "content": "《星际穿越》的故事",
+        "status": "2",
+        "pubdate": "2020-08-18"
+    }
+}
+2020-08-20 21:48:19,851 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/cms/user/login] from: ::ffff:127.0.0.1 costs: 6ms data:{
+    "param": {},
+    "body": {
+        "username": "test1",
+        "password": "123456"
+    }
+}
+2020-08-20 21:48:19,889 DEBUG 91562  --- [tangc1Deci.local] - [GET] -> [/cms/user/permissions] from: ::ffff:127.0.0.1 costs: 12ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 21:49:13,101 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/v1/content] from: ::1 costs: 11ms data:{
+    "param": {},
+    "body": {
+        "type": "300",
+        "image": "https://baidu.com",
+        "title": "《星际穿越123》",
+        "content": "《星际穿越123》的故事",
+        "status": "2",
+        "pubdate": "2020-08-18"
+    }
+}
+2020-08-20 21:52:14,310 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/v1/content] from: ::1 costs: 12ms data:{
+    "param": {},
+    "body": {
+        "type": "300",
+        "image": "https://baidu.com",
+        "title": "《星际穿越123》",
+        "content": "《星际穿越123》的故事",
+        "status": "2",
+        "pubdate": "2020-08-18"
+    }
+}
+2020-08-20 21:52:28,742 DEBUG 91562  --- [tangc1Deci.local] - [POST] -> [/cms/user/login] from: ::ffff:127.0.0.1 costs: 6ms data:{
+    "param": {},
+    "body": {
+        "username": "root",
+        "password": "123456"
+    }
+}
+2020-08-20 21:52:28,764 DEBUG 91562  --- [tangc1Deci.local] - [GET] -> [/cms/user/permissions] from: ::ffff:127.0.0.1 costs: 7ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 21:52:32,466 DEBUG 91562  --- [tangc1Deci.local] - [GET] -> [/cms/log/users?count=5&page=0] from: ::ffff:127.0.0.1 costs: 9ms data:{
+    "param": {
+        "count": "5",
+        "page": "0"
+    },
+    "body": {}
+}
+2020-08-20 21:52:32,491 DEBUG 91562  --- [tangc1Deci.local] - [GET] -> [/cms/log?count=15&page=0] from: ::ffff:127.0.0.1 costs: 14ms data:{
+    "param": {
+        "count": "15",
+        "page": "0"
+    },
+    "body": {}
+}
+2020-08-20 21:52:35,826 DEBUG 91562  --- [tangc1Deci.local] - [GET] -> [/cms/log?count=15&page=1] from: ::ffff:127.0.0.1 costs: 9ms data:{
+    "param": {
+        "count": "15",
+        "page": "1"
+    },
+    "body": {}
+}
+2020-08-20 21:59:36,013 DEBUG 92294  --- [tangc1Deci.local] - [GET] -> [/cms/log/users?count=5&page=0] from: ::ffff:127.0.0.1 costs: 22ms data:{
+    "param": {
+        "count": "5",
+        "page": "0"
+    },
+    "body": {}
+}
+2020-08-20 21:59:36,124 DEBUG 92294  --- [tangc1Deci.local] - [GET] -> [/cms/log?count=15&page=0] from: ::ffff:127.0.0.1 costs: 12ms data:{
+    "param": {
+        "count": "15",
+        "page": "0"
+    },
+    "body": {}
+}
+2020-08-20 22:00:15,764 DEBUG 92294  --- [tangc1Deci.local] - [POST] -> [/v1/content] from: ::1 costs: 26ms data:{
+    "param": {},
+    "body": {
+        "type": "300",
+        "image": "https://baidu.com",
+        "title": "《神偷奶爸》",
+        "content": "《神偷奶爸》的故事",
+        "status": "2",
+        "pubdate": "2020-08-18"
+    }
+}
+2020-08-20 22:00:24,443 DEBUG 92294  --- [tangc1Deci.local] - [GET] -> [/cms/log/users?count=5&page=0] from: ::ffff:127.0.0.1 costs: 8ms data:{
+    "param": {
+        "count": "5",
+        "page": "0"
+    },
+    "body": {}
+}
+2020-08-20 22:00:24,524 DEBUG 92294  --- [tangc1Deci.local] - [GET] -> [/cms/log?count=15&page=0] from: ::ffff:127.0.0.1 costs: 12ms data:{
+    "param": {
+        "count": "15",
+        "page": "0"
+    },
+    "body": {}
+}
+2020-08-20 22:00:27,059 DEBUG 92294  --- [tangc1Deci.local] - [GET] -> [/cms/log?count=15&page=1] from: ::ffff:127.0.0.1 costs: 11ms data:{
+    "param": {
+        "count": "15",
+        "page": "1"
+    },
+    "body": {}
+}
+2020-08-20 22:30:43,383 DEBUG 92752  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 2ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 22:33:45,552 DEBUG 92752  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 0ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 22:33:52,112 DEBUG 92752  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 16ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 22:35:28,292 DEBUG 92752  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 9ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 22:35:43,942 DEBUG 92752  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 9ms data:{
+    "param": {},
+    "body": {
+        "index": 1,
+        "type": 100,
+        "art_id": 1,
+        "status": 1
+    }
+}
+[31m2020-08-20 22:35:43,954 ERROR 92752  --- [tangc1Deci.local] - nodejs.ReferenceError: FlowModal is not defined[39m
+[31m    at Function.createFlow (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/dao/flow.js:5:17)[39m
+[31m    at /Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/api/v1/flow.js:30:19[39m
+[31m    at /Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/middleware/logger.js:32:5[39m
+[31m    at groupRequired (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/middleware/jwt.js:110:7)[39m
+[31m    at exports.log (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/lin-mizar/lin/middleware/log.js:14:9)[39m
+[31m    at /Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/koa-mount/index.js:52:26[39m
+[31m    at bodyParser (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/koa-bodyparser/index.js:95:5)[39m
+[31m[39m
+[31mpid: 92752[39m
+[31mhostname: tangc1Deci.local[39m
+[31m[39m
+2020-08-20 22:36:02,134 DEBUG 92752  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 7ms data:{
+    "param": {},
+    "body": {
+        "index": "1",
+        "type": "100",
+        "art_id": "1",
+        "status": "1"
+    }
+}
+[31m2020-08-20 22:36:02,135 ERROR 92752  --- [tangc1Deci.local] - nodejs.ReferenceError: FlowModal is not defined[39m
+[31m    at Function.createFlow (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/dao/flow.js:5:17)[39m
+[31m    at /Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/api/v1/flow.js:30:19[39m
+[31m    at /Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/middleware/logger.js:32:5[39m
+[31m    at groupRequired (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/app/middleware/jwt.js:110:7)[39m
+[31m    at exports.log (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/lin-mizar/lin/middleware/log.js:14:9)[39m
+[31m    at /Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/koa-mount/index.js:52:26[39m
+[31m    at bodyParser (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/koa-bodyparser/index.js:95:5)[39m
+[31m[39m
+[31mpid: 92752[39m
+[31mhostname: tangc1Deci.local[39m
+[31m[39m
+2020-08-20 22:37:24,456 DEBUG 92848  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 30ms data:{
+    "param": {},
+    "body": {
+        "index": "1",
+        "type": "100",
+        "art_id": "1",
+        "status": "1"
+    }
+}
+[31m2020-08-20 22:37:24,458 ERROR 92848  --- [tangc1Deci.local] - nodejs.SequelizeDatabaseError: Field 'art_id' doesn't have a default value[39m
+[31m    at Query.formatError (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)[39m
+[31m    at Execute.handler [as onResult] (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)[39m
+[31m    at Execute.execute (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/mysql2/lib/commands/command.js:30:14)[39m
+[31m    at Connection.handlePacket (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/mysql2/lib/connection.js:417:32)[39m
+[31m    at PacketParser.onPacket (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/mysql2/lib/connection.js:75:12)[39m
+[31m    at PacketParser.executeStart (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/mysql2/lib/packet_parser.js:75:16)[39m
+[31m    at Socket.<anonymous> (/Users/tangci/workspace/personal/github/fun005/fullstuck/learn-cms-koa/node_modules/mysql2/lib/connection.js:82:25)[39m
+[31m    at Socket.emit (events.js:203:13)[39m
+[31m    at addChunk (_stream_readable.js:295:12)[39m
+[31m    at readableAddChunk (_stream_readable.js:276:11)[39m
+[31m    at Socket.Readable.push (_stream_readable.js:210:10)[39m
+[31m    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)[39m
+[31mname: "SequelizeDatabaseError"[39m
+[31mparent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'art_id' doesn't have a default value","sql":"INSERT INTO `flow` (`id`,`index`,`type`,`status`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);","parameters":[1,100,1,"2020-08-20 22:37:24","2020-08-20 22:37:24"]}[39m
+[31moriginal: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'art_id' doesn't have a default value","sql":"INSERT INTO `flow` (`id`,`index`,`type`,`status`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);","parameters":[1,100,1,"2020-08-20 22:37:24","2020-08-20 22:37:24"]}[39m
+[31msql: "INSERT INTO `flow` (`id`,`index`,`type`,`status`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);"[39m
+[31mparameters: [1,100,1,"2020-08-20 22:37:24","2020-08-20 22:37:24"][39m
+[31mpid: 92848[39m
+[31mhostname: tangc1Deci.local[39m
+[31m[39m
+2020-08-20 22:38:08,818 DEBUG 92848  --- [tangc1Deci.local] - [GET] -> [/v1/content] from: ::1 costs: 11ms data:{
+    "param": {},
+    "body": {}
+}
+2020-08-20 22:41:00,294 DEBUG 92914  --- [tangc1Deci.local] - [POST] -> [/v1/flow] from: ::1 costs: 36ms data:{
+    "param": {},
+    "body": {
+        "index": "1",
+        "type": "100",
+        "art_id": "1",
+        "status": "1"
+    }
+}
+2020-08-20 22:42:19,571 DEBUG 92914  --- [tangc1Deci.local] - [GET] -> [/v1/book] from: ::ffff:127.0.0.1 costs: 6ms data:{
+    "param": {},
+    "body": {}
+}
