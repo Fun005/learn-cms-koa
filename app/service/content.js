@@ -2,6 +2,7 @@ import { MovieDao } from '../dao/movie';
 import { MusicDao } from '../dao/music';
 import { SentenceDao } from '../dao/sentence';
 import { NotFound } from "lin-mizar/lin";
+import { config } from "lin-mizar/lin";
 
 
 class Content {
@@ -42,6 +43,9 @@ class Content {
   }
 
   static async editContent(id, params) {
+
+    params['image'] = params['image'].split(config.getItem('localMainImgUrlPrefix'))[1 ]
+
     switch (params['type']) {
       case 100:
         // movie

@@ -22,5 +22,6 @@ module.exports = {
     //   // other config
     //   limit: 2
     // },
-  }
+  },
+  localMainImgUrlPrefix: 'http://localhost:5000/assets/'
 };

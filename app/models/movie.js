@@ -1,6 +1,6 @@
 import { Sequelize, Model } from 'sequelize'
 import sequelize from '../libs/db'
-import config from 'lin-mizar'
+import { config } from 'lin-mizar'
 
 class Movie extends Model {
 
@@ -14,10 +14,10 @@ Movie.init({
   },
   image: {
     type: Sequelize.STRING(64),
-    // get() {
-    //   const image = this.getDataValue('image')
-    //   return config.getItem('localMainImgUrlPrefix') + image
-    // }
+    get() {
+      const image = this.getDataValue('image')
+      return config.getItem('localMainImgUrlPrefix') + image
+    }
   },
   content: {
     type: Sequelize.STRING(300),
